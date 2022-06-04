@@ -134,12 +134,3 @@ function checkWinner() {
     return;
   }
 }
-
-//Reset the game
-resetBTN.addEventListener('click', () => {
-  board = [
-    '', '', '',
-    '', '', '',
-    '', '', ''
-  ]
-})
